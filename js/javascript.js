@@ -31,3 +31,4 @@ function adios(){
 			contador = 1;
 		}
 	});
+};
