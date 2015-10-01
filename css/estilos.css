@@ -124,23 +124,23 @@ footer p:last-child{
 	margin: 0 0 0.2em 0;
 }
 #portafolio .pholio #puls{
-	background: url("/image/1.jpg")no-repeat center center;
+	background: url("../image/portafolio/wall1.jpg")no-repeat center center;
 	background-size: 400px 300px;
 }
 #portafolio .pholio #devflix{
-	background: url("/image/2.jpg")no-repeat center center;
+	background: url("../image/portafolio/2.jpg")no-repeat center center;
 	background-size: 400px 300px;
 }
 #portafolio .pholio #paramore{
-	background: url("/image/3.jpg")no-repeat center center;
+	background: url("../image/portafolio/3.jpg")no-repeat center center;
 	background-size: 400px 300px;
 }
 #portafolio .pholio #portafolio{
-	background: url("/image/4.jpg")no-repeat center center;
+	background: url("../image/portafolio/4.jpg")no-repeat center center;
 	background-size: 400px 300px;
 }
 #portafolio .pholio #apipoke{
-	background: url("/image/5.jpg")no-repeat center center;
+	background: url("../image/portafolio/5.jpg")no-repeat center center;
 	background-size: 400px 300px;
 }
 #portafolio #texto{
@@ -172,7 +172,7 @@ footer p:last-child{
 }
 #preparacion #texto p, #portafolio #texto p{
 	font-size: 2em;
-	text-align: justify;	
+	text-align: center;	
 }
 #preparacion .caja1{
 	margin-bottom: 1em;
@@ -192,45 +192,46 @@ footer p:last-child{
 	margin: 0;
 }
 #yo{
-	padding: 8em 0;
+	padding: 11em 0;
 	background-color: #58FFC7;
-	height: 360px;
+	height: auto;
 }
 #yo #caja1{
 	overflow: hidden;
-  margin: 0 auto;
-  width: 940px;
+  	margin: 0 auto;
+  	width: 940px;
 }
 #yo #caja1 div {
-	width: 630px;
-  float: left;
-  margin: 0em;
-  margin-left: 0em;
+	width: 600px;
+   	float: left;
+   	margin: 0em;
 }
 #yo #caja1 div a{
+	text-decoration: none;
+	color: #01406B;
 	font-size: 1em;
 }
 #yo div h2{
 	padding-bottom: 0.5em;
-	font-size:3.7em;
+	font-size:3.8em;
 	color: #245474;
 }
 #yo div p{
 	text-align: justify;
-	font-size: 1.8em;
+	font-size: 1.9em;
 }
 #yo div #avatar{
 	text-align: center;
-  display: inline-block;
-  float: left;
-  margin: 1.5em 0 0 2em;
+  	display: inline-block;
+  	float: left;
+  	margin: 2.5em 0 0 2em;
 }
 #yo #avatar img{
 	border-radius: 50%;
 	width: 270px;
 } 
 .bio {
-	background: url("/image/background-header.jpg")no-repeat center center;
+	background: url("../image/background-header.jpg")no-repeat center center;
 	overflow: hidden;
 	padding: 4.5em 0;
 	text-align: center;
@@ -268,10 +269,15 @@ footer p:last-child{
  		width: 100%;
  	}
 }
+@media screen and (max-width: 955px){
+	#preparacion #texto p,  #portafolio #texto p{
+		width: 100%;
+		text-align: justify;
+ 	}
+}
 @media screen and (max-width: 945px){
 	header #menu {
 		background: #002552;
-		height: 22.75em;
 		left: -100%;
 		position: fixed;
 		width: 100%;
@@ -306,6 +312,7 @@ footer p:last-child{
 		text-decoration: none;
 	}
 	header .menu-bar .icon_menu{
+		cursor:pointer;
 		background: #002552;
 		padding: 1px 0;
 		position: absolute;
@@ -346,10 +353,6 @@ footer p:last-child{
 	#portafolio .pholio{
 		width: 42%;
 	}
-	#portafolio #texto div{
-		width: 100%;
-		text-align: center;
- 	}
 	#preparacion .caja1{
 		width: 42%;
   	}
